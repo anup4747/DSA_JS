@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=S, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <input type="text" />
+    <button></button>
+  </body>
+  <script>
+    let data = [10, 20, 40, 50, 60, 70, 80];
+    let newEl = 30;
+    let position = 2;
+    let length = data.length;
+
+    console.log(data);
+    // Shift elements to the right, starting from the end
+    for (let i = length - 1; i >= position; i--) {
+      data[i + 1] = data[i];
+    }
+
+    // Insert the new element at the specified position
+    data[position] = newEl;
+    // also you can use splice()
+
+    console.log(data);
+  </script>
+</html>
