@@ -4,15 +4,15 @@ d1 = 0
 d2 = 0
 d3 = 0
 
-let data1 = [3,7,12,34,56,90]
-let data2 = [4,9,25,45]
+let data1 = [3, 7, 12, 34, 56, 90]
+let data2 = [4, 9, 25, 45]
 let data3 = []
 
-while(d1 < data1.length && d2 < data2.length){
-    if(data1[d1] < data2[d2]){
+while (d1 < data1.length && d2 < data2.length) {
+    if (data1[d1] < data2[d2]) {
         data3[d3] = data1[d1]
         d1++;
-    }else{
+    } else {
         data3[d3] = data2[d2]
         d2++;
     }

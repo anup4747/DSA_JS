@@ -1,0 +1,12 @@
+Time complexity is the measure of how the execution time of an algorithm grows as the input size increases. It tells us how fast or slow an algorithm runs depending on input size (e.g., O(1), O(n), O(n²)).
+
+Space complexity is the measure of how much memory an algorithm uses as the input size grows. It includes memory for variables, data structures, recursion stack, etc.
+
+Big O notation is a way to describe the upper bound of an algorithm’s time or space complexity. It tells us how the algorithm behaves in the worst-case scenario as the input size grows.
+
+O(1) → Constant time (e.g., accessing an array element)
+O(log n) → Logarithmic time (e.g., binary search)
+O(n) → Linear time (e.g., simple loop through array)
+O(n log n) → Log-linear (e.g., merge sort, quicksort average case)
+O(n²) → Quadratic (e.g., nested loops in bubble sort)
+O(2ⁿ) → Exponential (e.g., recursive Fibonacci without DP)
