@@ -1,5 +1,5 @@
 //  find minimum and Maximum Value in Binary Search Tree
-
+//  the minimum value in bst is always left most value and maximum right most value
 class Node {
     constructor(data) {
         this.data = data;
