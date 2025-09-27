@@ -35,10 +35,6 @@ Open any `.js` file in the repo to view and run the implementation. Example usag
 
 Contributions are welcome! Feel free to submit pull requests for improvements, bug fixes, or new implementations.
 
-## License
-
-This project currently does not specify a license. Please contact the repository owner for clarification if you wish to use the code for commercial purposes.
-
 ## Author
 
 Made by [anup4747](https://github.com/anup4747)
