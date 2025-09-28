@@ -1,3 +1,5 @@
+// undireced graph - a collection of nodes (or vertices) connected by edges (or links) that have no specific direction, meaning they are bidirectional
+
 function addEdge(mat, i, j) {
     mat[i][j] = 1; // Graph is 
     mat[j][i] = 1; // undirected
