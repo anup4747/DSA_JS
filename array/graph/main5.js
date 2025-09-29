@@ -1,3 +1,9 @@
+// DFS from a Given Source of Undirected Graph
+
+// The algorithm starts from a given source and explores all reachable vertices from the given source. It is similar to Preorder Tree Traversal 
+// where we visit the root, then recur for its children. In a graph, there might be loops. 
+// So we use an extra visited array to make sure that we do not process a vertex again.
+
 function dfsRec(adj, visited, s, res) {
     visited[s] = true;
     res.push(s);
